@@ -1,0 +1,47 @@
+body {
+	font-size: 14px;
+	font-family: 'Libre Baskerville', serif;
+}
+.clear {
+	clear: both;
+}
+.container {
+	max-width:1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header {
+	background: #ffffff;
+	padding: 10px;
+}
+header .logo {
+	width: 50%;
+	margin: 10px auto;
+}
+header nav ul {
+	width: 100%;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+header nav ul li {
+	float: left;
+	padding: 30px;
+}
+header nav ul li a {
+	display: block;
+	color: #000000;
+}
+header nav ul li a:hover {
+	color: #f4a460
+}
+.active {
+  background-color: #f4a460;
+}
+footer {
+	background: #CD853F;
+	color: #000000;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
